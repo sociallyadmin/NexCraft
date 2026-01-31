@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ff99;
+}
+
+.play-btn {
+    background: #00ff99;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.big-play {
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size: 18px;
+    background: #00ff99;
+    border: none;
+    cursor: pointer;
+}
+
+.discord-btn {
+    background: #5865F2;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ip {
+    color: #00ff99;
+    font-size: 24px;
+}
